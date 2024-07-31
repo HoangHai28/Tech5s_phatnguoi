@@ -1420,8 +1420,8 @@ li.has-dropdown:hover > .nav-dropdown-full {
   justify-content: space-between;
 }
 .nav-left {
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 .nav-right {
   -ms-flex-pack: end;
@@ -7742,7 +7742,7 @@ html {
     margin: 0 15px;
   }
   .medium-logo-center .logo img {
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .medium-logo-center .flex-right {
     -ms-flex: 1 1 0px;
